@@ -53,10 +53,10 @@ def read_file_from_serial(serial_port):
 
 # Define the serial port (may vary depending on your system)
 # Linux
-#serial_port = '/dev/ttyUSB0'
+serial_port = '/dev/ttyUSB0'
 # MacOS
-serial_port = '/dev/tty.usbserial-D30EZ678'
+#serial_port = '/dev/tty.usbserial-D30EZ678'
 
 # Read data from the serial port
-#read_from_serial(serial_port)
-read_file_from_serial(serial_port)
+read_from_serial(serial_port)
+#read_file_from_serial(serial_port)
