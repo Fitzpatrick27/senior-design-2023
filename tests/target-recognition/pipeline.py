@@ -43,7 +43,7 @@ def create_pipeline():
     # fix warning
     stereo.setDepthAlign(dai.CameraBoardSocket.LEFT)
 
-    spatialDetectionNetwork.setBlobPath(str("/home/pi/blob_files/landing_target.blob"))
+    spatialDetectionNetwork.setBlobPath(str("/home/pi/senior-design-2023/landing_target.blob"))
     spatialDetectionNetwork.setConfidenceThreshold(0.4)
     spatialDetectionNetwork.input.setBlocking(False)
     spatialDetectionNetwork.setBoundingBoxScaleFactor(0.5)
