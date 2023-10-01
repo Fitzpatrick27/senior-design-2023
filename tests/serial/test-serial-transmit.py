@@ -11,7 +11,7 @@ def send_string_to_serial(string, serial_port):
         print(f'Error: {e}')
 
 # Define the string you want to send
-string_to_send = "Hewwo!　こんにちは　あんたばか？？"
+string_to_send = "Hewwo! こんにちは あんたばか？？"
 
 # Define the serial port (may vary depending on your system)
 serial_port = '/dev/ttyUSB0'
